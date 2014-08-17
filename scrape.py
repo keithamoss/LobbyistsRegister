@@ -7,8 +7,8 @@ for l in wa.lobbyists():
 for l in sa.lobbyists():
   scraperwiki.sqlite.save(unique_keys=['business_name', 'location'], data=l)
 
-for l in nsw.lobbyists():
-  scraperwiki.sqlite.save(unique_keys=['business_name', 'location'], data=l)
+# for l in nsw.lobbyists():
+#   scraperwiki.sqlite.save(unique_keys=['business_name', 'location'], data=l)
 
 for l in qld.lobbyists():
   scraperwiki.sqlite.save(unique_keys=['business_name', 'location'], data=l)
