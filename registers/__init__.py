@@ -1,1 +1,1 @@
-__all__ = ['wa', 'sa', 'nsw', 'qld', 'vic', 'tas', 'fed']
+__all__ = ['wa', 'sa', 'qld', 'vic', 'tas', 'fed']
